@@ -35,7 +35,7 @@
 <link href="/css/main.css?v=0.4.5.2" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="Git,软件配置," />
 
 
 
@@ -51,19 +51,16 @@
 
 
 
-<meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
-Quick">
+<meta name="description" content="记录我的Git的配置和用法">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hello World">
-<meta property="og:url" content="http://yoursite.com/2015/12/22/hello-world/index.html">
+<meta property="og:title" content="Git配置和使用">
+<meta property="og:url" content="http://yoursite.com/2015/12/20/git-usage/index.html">
 <meta property="og:site_name" content="Bright's Blog">
-<meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
-Quick">
-<meta property="og:updated_time" content="2015-12-22T11:01:21.804Z">
+<meta property="og:description" content="记录我的Git的配置和用法">
+<meta property="og:updated_time" content="2015-12-22T10:39:43.031Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hello World">
-<meta name="twitter:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
-Quick">
+<meta name="twitter:title" content="Git配置和使用">
+<meta name="twitter:description" content="记录我的Git的配置和用法">
 
 
 
@@ -75,7 +72,7 @@ Quick">
   };
 </script>
 
-  <title> Hello World | Bright's Blog </title>
+  <title> Git配置和使用 | Bright's Blog </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -205,7 +202,7 @@ Quick">
             
             
               
-                Hello World
+                Git配置和使用
               
             
           </h1>
@@ -214,11 +211,26 @@ Quick">
         <div class="post-meta">
           <span class="post-time">
             发表于
-            <time itemprop="dateCreated" datetime="2015-12-22T19:01:24+08:00" content="2015-12-22">
-              2015-12-22
+            <time itemprop="dateCreated" datetime="2015-12-20T17:31:22+08:00" content="2015-12-20">
+              2015-12-20
             </time>
           </span>
 
+          
+            <span class="post-category" >
+              &nbsp; | &nbsp; 分类于
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/08工具/" itemprop="url" rel="index">
+                    <span itemprop="name">08工具</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
           
 
           
@@ -238,33 +250,46 @@ Quick">
       
 
       
-        <span itemprop="articleBody"><p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="http://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick_Start"><a href="#Quick_Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create_a_new_post"><a href="#Create_a_new_post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="http://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run_server"><a href="#Run_server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="http://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate_static_files"><a href="#Generate_static_files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="http://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy_to_remote_sites"><a href="#Deploy_to_remote_sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="http://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+        <span itemprop="articleBody"><h1 id="u8BBE_u7F6E_u5E94_u7528"><a href="#u8BBE_u7F6E_u5E94_u7528" class="headerlink" title="设置应用"></a>设置应用</h1><h2 id="u8BBE_u7F6Egit_push_u7684_u9ED8_u8BA4_u53C2_u6570"><a href="#u8BBE_u7F6Egit_push_u7684_u9ED8_u8BA4_u53C2_u6570" class="headerlink" title="设置git push的默认参数"></a>设置git push的默认参数</h2><p>默认配置下，当使用git push命令而没有明确的指名本地分支和远程参考分支的情况下，会有如下提示：<br><figure class="highlight vhdl"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">warning: push.<span class="keyword">default</span> <span class="keyword">is</span> unset; its implicit value <span class="keyword">is</span> changing <span class="keyword">in</span></span><br><span class="line">Git <span class="number">2.0</span> from <span class="attribute">'matching</span>' <span class="keyword">to</span> <span class="attribute">'simple</span>'. <span class="keyword">To</span> squelch this message</span><br><span class="line"><span class="keyword">and</span> maintain the current behavior <span class="keyword">after</span> the <span class="keyword">default</span> changes, <span class="keyword">use</span>:</span><br><span class="line"> </span><br><span class="line">  git config <span class="comment">--global push.default matching</span></span><br><span class="line"> </span><br><span class="line"><span class="keyword">To</span> squelch this message <span class="keyword">and</span> adopt the <span class="keyword">new</span> behavior now, <span class="keyword">use</span>:</span><br><span class="line"> </span><br><span class="line">  git config <span class="comment">--global push.default simple</span></span><br><span class="line"> </span><br><span class="line">See <span class="attribute">'git</span> help config' <span class="keyword">and</span> search <span class="keyword">for</span> <span class="attribute">'push</span>.<span class="keyword">default</span>' <span class="keyword">for</span> further information.</span><br><span class="line">(the <span class="attribute">'simple</span>' mode was introduced <span class="keyword">in</span> Git <span class="number">1.7</span>.<span class="number">11</span>. <span class="keyword">Use</span> the similar mode</span><br><span class="line"><span class="attribute">'current</span>' instead <span class="keyword">of</span> <span class="attribute">'simple</span>' <span class="keyword">if</span> you sometimes <span class="keyword">use</span> older versions <span class="keyword">of</span> Git)</span><br></pre></td></tr></table></figure></p>
+<p>使用下面命令指定git push的默认参数</p>
+<p><code>git config --global push.default simple</code></p>
+<h2 id="u8BBE_u7F6E_u7528_u6237_u4FE1_u606F"><a href="#u8BBE_u7F6E_u7528_u6237_u4FE1_u606F" class="headerlink" title="设置用户信息"></a>设置用户信息</h2><figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config --global user<span class="class">.name</span> <span class="string">"brightgeng"</span></span><br><span class="line">git config --global user<span class="class">.mail</span> <span class="string">"runda@outlook.com"</span></span><br></pre></td></tr></table></figure>
+<h2 id="u5C06_u672C_u5730_u7684_u5E93_u540C_u65F6push_u52302_u4E2A_u5E93_u76842_u4E2A_u5206_u652F"><a href="#u5C06_u672C_u5730_u7684_u5E93_u540C_u65F6push_u52302_u4E2A_u5E93_u76842_u4E2A_u5206_u652F" class="headerlink" title="将本地的库同时push到2个库的2个分支"></a>将本地的库同时push到2个库的2个分支</h2><p>需求：将我的培训用的网页PPT同时提交到GitHub的gh-pages分支和GitCafe的gitcafe-pages分支上。<br>解决办法：在与项目文件夹所在目录中创建一个.bat文件，里面写这些代码：<br><figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cd ./Slides &amp;&amp; git push git@gitcafe<span class="class">.com</span>:runda/slides<span class="class">.git</span> gh-pages:gitcafe-pages &amp;&amp; git push git@github<span class="class">.com</span>:brightgeng/slides<span class="class">.git</span> gh-pages &amp;&amp; pause</span><br></pre></td></tr></table></figure></p>
+<p>需要提交时，双击运行即可。</p>
+<h1 id="Git_u7684_u8BED_u6CD5"><a href="#Git_u7684_u8BED_u6CD5" class="headerlink" title="Git的语法"></a>Git的语法</h1><h2 id="Git_add"><a href="#Git_add" class="headerlink" title="Git add"></a>Git add</h2><figure class="highlight livecodeserver"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git <span class="built_in">add</span> <span class="comment">--all</span></span><br></pre></td></tr></table></figure>
+<h2 id="Git_status"><a href="#Git_status" class="headerlink" title="Git status"></a>Git status</h2><h2 id="Git_commit"><a href="#Git_commit" class="headerlink" title="Git commit"></a>Git commit</h2><p><code>git commit -m &#39;&#39;</code></p>
+<h2 id="Git_push"><a href="#Git_push" class="headerlink" title="Git push"></a>Git push</h2><figure class="highlight x86asm"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ git <span class="keyword">push</span> ssh://git@dev.lemote.com/rt4ls.git master // 把本地仓库提交到远程仓库的master分支中</span><br><span class="line">$ git <span class="keyword">push</span> origin <span class="keyword">test</span>:master         // 提交本地<span class="keyword">test</span>分支作为远程的master分支</span><br><span class="line">$ git <span class="keyword">push</span> origin <span class="keyword">test</span>:<span class="keyword">test</span>              // 提交本地<span class="keyword">test</span>分支作为远程的<span class="keyword">test</span>分支</span><br></pre></td></tr></table></figure>
+<h2 id="Git_pull"><a href="#Git_pull" class="headerlink" title="Git pull"></a>Git pull</h2><figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git pull <span class="tag">&lt;<span class="title">远程主机名</span>&gt;</span> <span class="tag">&lt;<span class="title">远程分支名</span>&gt;</span>:<span class="tag">&lt;<span class="title">本地分支名</span>&gt;</span></span><br></pre></td></tr></table></figure>
 </span>
       
     </div>
 
     <footer class="post-footer">
       
+        <div class="post-tags">
+          
+            <a href="/tags/Git/" rel="tag">#Git</a>
+          
+            <a href="/tags/软件配置/" rel="tag">#软件配置</a>
+          
+        </div>
+      
 
       
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2015/12/22/vim-pluin-markdown/" rel="next" title="vim配置vim-markdown插件">
-                <i class="fa fa-chevron-left"></i> vim配置vim-markdown插件
+              <a href="/2015/12/20/Hexo-guid/" rel="next" title="Windows下Git+Hexo在GitHub上搭建博客站和项目站">
+                <i class="fa fa-chevron-left"></i> Windows下Git+Hexo在GitHub上搭建博客站和项目站
               </a>
             
           </div>
 
           <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2015/12/22/vim-pluin-markdown/" rel="prev" title="vim配置vim-markdown插件">
+                vim配置vim-markdown插件 <i class="fa fa-chevron-right"></i>
+              </a>
             
           </div>
         </div>
@@ -394,7 +419,7 @@ Quick">
               
             
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Quick_Start"><span class="nav-number">1.</span> <span class="nav-text">Quick Start</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Create_a_new_post"><span class="nav-number">1.1.</span> <span class="nav-text">Create a new post</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Run_server"><span class="nav-number">1.2.</span> <span class="nav-text">Run server</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Generate_static_files"><span class="nav-number">1.3.</span> <span class="nav-text">Generate static files</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Deploy_to_remote_sites"><span class="nav-number">1.4.</span> <span class="nav-text">Deploy to remote sites</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#u8BBE_u7F6E_u5E94_u7528"><span class="nav-number">1.</span> <span class="nav-text">设置应用</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#u8BBE_u7F6Egit_push_u7684_u9ED8_u8BA4_u53C2_u6570"><span class="nav-number">1.1.</span> <span class="nav-text">设置git push的默认参数</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#u8BBE_u7F6E_u7528_u6237_u4FE1_u606F"><span class="nav-number">1.2.</span> <span class="nav-text">设置用户信息</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#u5C06_u672C_u5730_u7684_u5E93_u540C_u65F6push_u52302_u4E2A_u5E93_u76842_u4E2A_u5206_u652F"><span class="nav-number">1.3.</span> <span class="nav-text">将本地的库同时push到2个库的2个分支</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Git_u7684_u8BED_u6CD5"><span class="nav-number">2.</span> <span class="nav-text">Git的语法</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Git_add"><span class="nav-number">2.1.</span> <span class="nav-text">Git add</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Git_status"><span class="nav-number">2.2.</span> <span class="nav-text">Git status</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Git_commit"><span class="nav-number">2.3.</span> <span class="nav-text">Git commit</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Git_push"><span class="nav-number">2.4.</span> <span class="nav-text">Git push</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Git_pull"><span class="nav-number">2.5.</span> <span class="nav-text">Git pull</span></a></li></ol></li></ol></div>
             
           </div>
           <div class="post-toc-indicator-bottom post-toc-indicator">
